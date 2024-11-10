@@ -11,7 +11,9 @@ body {
 }
 .iframe-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 .iframe-container iframe {
   border-radius: 8px; /* Optional: rounded edges */
