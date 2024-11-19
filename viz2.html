@@ -38,6 +38,7 @@
               <li><a href="./viz3.html" title="">Viz 3</a></li>
               <li><a href="./viz4.html" title="">Viz 4</a></li>
               <li><a href="./viz5.html" title="">Viz 5</a></li>
+              <li><a href="./viz6.html" title="">Viz 6</a></li>
             </ul>
           </div>
         </div>
@@ -49,7 +50,7 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="section-container-spacer text-center">
-              <h1 class="h2">02 : Plot Title</h1>
+              <h1 class="h2">02 : Interactive Bar Chart</h1>
             </div>
 
             <div class="row">
@@ -58,32 +59,40 @@
                   <div class="col-xs-12 col-md-8">
                     <h3>Description</h3>
                     <p>
-                      Lorem ipsum odor amet, consectetuer adipiscing elit.
-                      Ridiculus eleifend eros mattis justo amet tempus. Ex enim
-                      pretium pulvinar malesuada arcu magnis rhoncus nibh.
-                      Tempor lacus euismod habitant id elementum vivamus.
-                      Pharetra fringilla semper ligula sit commodo. Sem
-                      habitasse vulputate lacinia hendrerit, iaculis vehicula
-                      etiam dictum. Ridiculus mi eget vivamus vitae gravida odio
-                      non. Ornare sit augue duis consequat id efficitur laoreet
-                      ipsum. Urna dis porttitor lobortis ut fames tortor. Ligula
-                      netus nullam ridiculus feugiat nam facilisis.
+                      This interactive bar chart displays the sum of injuries by
+                      phase of flight: cruise, maneuvering, takeoff, approach,
+                      climb, descent, go-around, landing, standing, taxi, and
+                      others. The bars are separated by number of engines, or
+                      you can select using the radio buttons. The majority of
+                      incidents come from single engine aircrafts, which find
+                      the most abundant injuries during maneuvering and
+                      cruising. The next most abundant injuries come from double
+                      engine aircrafts, which find the most injuries during
+                      takeoff, approach, and cruising. Aircrafts with three,
+                      four, and zero engines are less abundant in this dataset,
+                      and they find the most abundant injuries during takeoff,
+                      approach, and maneuvering, respectively. This can assist
+                      members of the National Transportation Safety Board (NTSB)
+                      in their analyses of safe flights regarding engine number
+                      and phase of flight. Since single engine aircrafts are the
+                      most common, we do see the highest numbers of injuries
+                      involved. It is still helpful to know that the maneuvering
+                      and cruising phases are the most dangerous, and can be
+                      considered with more severity by the NTSB.
                     </p>
                     <p>
-                      Volutpat malesuada interdum platea bibendum tortor. Auctor
-                      quis adipiscing varius enim metus erat urna rutrum.
-                      Malesuada id platea cras id primis auctor fusce mauris
-                      netus? Suscipit vel viverra urna blandit in. Dolor
-                      pellentesque eleifend ultrices ac; amet curae augue elit.
-                      Leo in ipsum sagittis, cubilia at hendrerit. Erat
-                      tincidunt litora nascetur lobortis nullam penatibus montes
-                      convallis. Venenatis sollicitudin libero maximus tincidunt
-                      netus nec torquent lacinia eget
+                      The marks in this visualization are the bars, and the
+                      channels are the color scale differentiating between
+                      engine numbers, and the lengths of the bars (signifying
+                      magnitude of injuries). The task of this visualization is
+                      to identify which phases of flight find the most abundant
+                      injuries during aviation incidents depending on the number
+                      of engines the aircraft has.
                     </p>
                   </div>
-                  <div class="col-xs-12 col-md-8 iframe-container">
+                  <div class="center">
                     <iframe
-                      src="assets/incident_map.html"
+                      src="assets/interactive_bar_chart.svg"
                       width="100%"
                       height="600px"
                       frameborder="0"

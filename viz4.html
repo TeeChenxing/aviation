@@ -38,6 +38,7 @@
               <li><a href="./viz3.html" title="">Viz 3</a></li>
               <li><a href="./viz4.html" title="">Viz 4</a></li>
               <li><a href="./viz5.html" title="">Viz 5</a></li>
+              <li><a href="./viz6.html" title="">Viz 6</a></li>
             </ul>
           </div>
         </div>
@@ -49,7 +50,7 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="section-container-spacer text-center">
-              <h1 class="h2">04 : Plot Title</h1>
+              <h1 class="h2">04 : Three-Layer Sankey</h1>
             </div>
 
             <div class="row">
@@ -58,33 +59,52 @@
                   <div class="col-xs-12 col-md-8">
                     <h3>Description</h3>
                     <p>
-                      Lorem ipsum odor amet, consectetuer adipiscing elit.
-                      Suscipit lobortis curabitur torquent sociosqu interdum
-                      quisque facilisis. Venenatis suspendisse sociosqu luctus
-                      nisi mi urna massa scelerisque a. Lectus est aliquam
-                      dignissim curae quam viverra! Dictumst erat volutpat
-                      nostra nam morbi felis quisque sagittis. Ante facilisi
-                      conubia commodo; cras imperdiet ex mi justo. In mollis
-                      maecenas eu posuere egestas accumsan primis egestas
-                      inceptos. Egestas himenaeos accumsan netus eleifend, porta
-                      magna molestie.
+                      The Three-Layer Sankey diagram extends the analysis by
+                      adding a third dimension: Purpose of Flight. This
+                      three-layer plot reveals deeper insights into the reasons
+                      for flights that result in accidents, combining this with
+                      the information from the previous categories (Phase of
+                      Flight and Aircraft Type). The inclusion of Purpose of
+                      Flight—which includes categories such as Instructional
+                      Flight, Business Flight, and Personal Flight—highlights
+                      some notable trends:
                     </p>
+                    <ul>
+                      <li>
+                        Instructional Flights show a significant number of
+                        accidents, particularly during the Landing and Takeoff
+                        Phases. This could point to the risks associated with
+                        training environments where novice pilots are more
+                        likely to be involved.
+                      </li>
+                      <li>
+                        This trend is also dispersed across various aircraft
+                        types, showing that accidents during training flights
+                        occur across a range of planes, from small single-engine
+                        craft to larger models.
+                      </li>
+                      <li>
+                        The visualization highlights how different types of
+                        aircraft and flight purposes link to accident phases,
+                        offering a multi-dimensional perspective on accident
+                        trends.
+                      </li>
+                    </ul>
                     <p>
-                      Condimentum natoque varius sit pretium etiam sed. Pharetra
-                      duis aenean mauris integer porta nascetur pharetra.
-                      Vulputate est parturient penatibus libero ullamcorper
-                      molestie eleifend nostra. Natoque adipiscing habitasse
-                      rhoncus habitant venenatis sit proin magna placerat.
-                      Atempus aliquam efficitur sed aptent maecenas. Purus
-                      tristique iaculis vivamus; magna viverra vulputate lacus
-                      tempus justo. Purus ex tellus luctus, maecenas id per?
+                      By layering these three categories together, we get a more
+                      complete view of how flight phase, aircraft type, and
+                      purpose of flight intersect in incidents. This layered
+                      visualization helps identify key areas for further
+                      investigation, such as the types of aircraft and flight
+                      purposes most commonly associated with accidents during
+                      critical phases like takeoff and landing.
                     </p>
                   </div>
-                  <div class="col-xs-12 col-md-8 iframe-container">
+                  <div class="center">
                     <iframe
-                      src="assets/incident_map.html"
+                      src="assets/sankey_plot_2.html"
                       width="100%"
-                      height="600px"
+                      height="1040px"
                       frameborder="0"
                     ></iframe>
                   </div>

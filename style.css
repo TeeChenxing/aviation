@@ -9,6 +9,11 @@ html {
 body {
   margin: 0;
 }
+.center {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
 .iframe-container {
   display: flex;
   justify-content: center;
