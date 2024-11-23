@@ -26,10 +26,10 @@ body {
 }
 #visualizations {
   list-style-type: none; /* Remove default bullets */
-  padding-left: 0; /* Remove any left padding */
+  padding-left: 20px; /* Remove any left padding */
 }
 #visualizations li::before {
-  content: "✈️"; /* Emoji as bullet point */
+  content: ""; /* Emoji as bullet point */
   margin-right: 10px; /* Add space between the emoji and text */
 }
 article,

@@ -39,6 +39,7 @@
               <li><a href="./viz4.html" title="">Viz 4</a></li>
               <li><a href="./viz5.html" title="">Viz 5</a></li>
               <li><a href="./viz6.html" title="">Viz 6</a></li>
+              <li><a href="./viz7.html" title="">Viz 7</a></li>
             </ul>
           </div>
         </div>
@@ -56,30 +57,6 @@
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
                 <div class="row">
-                  <div class="col-xs-12 col-md-8">
-                    <h3>Description</h3>
-                    <p>
-                      Lorem ipsum odor amet, consectetuer adipiscing elit. Cras
-                      ultrices eget nibh donec phasellus sed. Dapibus eu tempor
-                      torquent egestas accumsan vel sit dolor libero. Viverra
-                      porttitor felis ante felis vitae duis mus turpis rhoncus.
-                      Fusce proin vel aliquet consectetur leo justo est. Purus
-                      convallis netus libero odio, duis rhoncus in dis. Lacinia
-                      aliquet blandit nullam massa potenti nisl magnis ad. Erat
-                      bibendum dolor massa leo penatibus.
-                    </p>
-                    <p>
-                      Conubia mattis habitant lacus scelerisque nibh commodo
-                      bibendum cras. Fusce fames torquent donec nostra ligula
-                      egestas. Arcu commodo diam convallis sed id; velit
-                      volutpat proin. Ridiculus nulla nisl lorem pellentesque
-                      diam semper sapien. Purus vivamus venenatis taciti purus
-                      maximus. Dolor primis luctus mattis ullamcorper auctor
-                      volutpat dui. Donec consectetur blandit tellus cubilia,
-                      leo iaculis faucibus donec? Orci nisi tincidunt ridiculus
-                      dis mi quisque netus.
-                    </p>
-                  </div>
                   <div class="center">
                     <iframe
                       src="assets/interactive_scatterplot.html"
@@ -87,7 +64,67 @@
                       height="610px"
                       frameborder="0"
                     >
-                  </iframe>
+                    </iframe>
+                  </div>
+                  <div class="col-xs-12 col-md-8">
+                    <h3>Description</h3>
+                    <p>
+                      This interactive scatter plot visualizes total fatal
+                      aircraft injuries over time (starting from 1980) and
+                      allows filtering by the number of engines. Each point
+                      represents an incident, with the y-axis displaying the
+                      number of fatal injuries and the x-axis marking the date
+                      of occurrence. The color of each point encodes the extent
+                      of aircraft damage, with red indicating "Destroyed,"
+                      yellow for "Substantial," orange for "Minor," and gray for
+                      "Unknown." Unfiltered, the data demonstrates that the
+                      majority of incidents involve significant aircraft damage,
+                      particularly "Destroyed" outcomes, and cluster closer to
+                      lower fatality counts. High-fatality incidents are
+                      relatively rare but visible as outliers.
+                    </p>
+                    <p>When filtered by the number of engines:</p>
+                    <ul>
+                      <li>
+                        <b>1 Engine:</b> The most incidents occur here,
+                        highlighting that single-engine aircraft are more prone
+                        to fatal accidents, possibly due to their prevalence in
+                        general aviation. Most incidents cluster around 0–20
+                        fatalities.
+                      </li>
+                      <li>
+                        <b>2 Engine:</b> Two-engine aircraft show fewer total
+                        incidents than single-engine planes but include some of
+                        the higher-fatality incidents. This suggests a different
+                        operational risk profile, potentially tied to larger or
+                        more complex operations.
+                      </li>
+                      <li>
+                        <b>3 Engine and 4 Engines:</b> These aircraft show much
+                        sparser data points, with incidents being infrequent but
+                        often involving higher fatalities when they do occur.
+                        These findings align with the lower overall use of
+                        multi-engine planes compared to single- and twin-engine
+                        types.
+                      </li>
+                    </ul>
+                    <br />
+                    <p>
+                      The marks in this visualization are the scatter points,
+                      while the channels are color (representing the level of
+                      damage) and position (date and fatality count). The tasks
+                      for this visualization include identifying temporal
+                      trends, understanding the distribution of fatal injuries
+                      across aircraft types, and analyzing damage levels over
+                      time. However, this graph primarily highlights individual
+                      incidents and their details. For a broader analysis, it
+                      may be more useful to examine summed fatalities per month
+                      for different engine types, as seen in the next
+                      visualization, to capture overall trends and seasonality
+                      across time. This approach could provide more actionable
+                      insights for safety interventions and operational
+                      planning.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -102,8 +139,35 @@
         <div class="row">
           <div class="col-xs-12">
             <p>
-              <br />© Andrea Keiper, Miles Vollmer, Souren Prakash, Teera
-              Tesharojanasup
+              <br />©
+              <a
+                href="https://www.linkedin.com/in/andrea-keiper/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Andrea Keiper </a
+              >,
+              <a
+                href="https://www.linkedin.com/in/miles-vollmer-192aa0223/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Miles Vollmer </a
+              >,
+              <a
+                href="https://www.linkedin.com/in/souren-prakash/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Souren Prakash </a
+              >,
+              <a
+                href="https://www.linkedin.com/in/teera74/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Teera Tesharojanasup
+              </a>
             </p>
           </div>
         </div>

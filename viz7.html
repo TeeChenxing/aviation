@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>: 06</title>
+    <link href="assets/favicon.ico?v2" rel="icon" />
+
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="description" name="description" />
+    <meta name="google" content="notranslate" />
+    <meta name="Teera Tesharo" />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+
+  <body class="">
+    <header>
+      <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar-collapse"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="./index.html" title="">Home</a></li>
+              <li><a href="./viz1.html" title="">Viz 1</a></li>
+              <li><a href="./viz2.html" title="">Viz 2</a></li>
+              <li><a href="./viz3.html" title="">Viz 3</a></li>
+              <li><a href="./viz4.html" title="">Viz 4</a></li>
+              <li><a href="./viz5.html" title="">Viz 5</a></li>
+              <li><a href="./viz6.html" title="">Viz 6</a></li>
+              <li><a href="./viz7.html" title="">Viz 7</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="section-container-spacer text-center">
+              <h1 class="h2">06 : Aggregated Interactive Scatter</h1>
+            </div>
+
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                  <div class="center">
+                    <iframe
+                      src="assets/summed_interactive_scatterplot.html"
+                      width="100%"
+                      height="610px"
+                      frameborder="0"
+                    >
+                    </iframe>
+                  </div>
+                  <div class="col-xs-12 col-md-8">
+                    <h3>Description</h3>
+                    <p>
+                      This interactive scatter plot visualizes total fatal
+                      aircraft fatalities per month starting in 1980,
+                      categorized by the number of engines on the aircraft.
+                      Unlike the previous scatter plot, which focuses on
+                      individual incidents, this visualization aggregates
+                      fatalities by month, providing a clearer perspective on
+                      broader trends over time. The data is color-coded by
+                      engine type: single-engine (blue), twin-engine (orange),
+                      three-engine (red), and four-engine (green). By
+                      aggregating data, this graph offers a more holistic view
+                      of aviation safety across decades and highlights patterns
+                      not as easily discernible in incident-level data.
+                    </p>
+                    <p>
+                      One of the most notable trends is the gradual decline in
+                      single-engine aircraft fatalities over time. This decrease
+                      may reflect advancements in aviation safety technology,
+                      better pilot training programs, or the impact of stricter
+                      regulations, as single-engine planes are among the most
+                      widely used aircraft. In contrast, fatalities involving
+                      twin-engine aircraft show more stability over time, though
+                      occasional peaks suggest isolated incidents with high
+                      fatality counts. Three-engine and four-engine aircraft
+                      show sparse but notable data points, with incidents
+                      occurring less frequently but often involving high numbers
+                      of fatalities. These peaks of high fatalities could be
+                      tied to rare large-scale commercial or military accidents,
+                      where these aircraft types are more likely to be used.
+                    </p>
+                    <p>
+                      The marks in this visualization are the scatter points
+                      representing monthly fatalities, while the channels
+                      include color to differentiate between engine types and
+                      position on the axes to reflect time and total fatalities.
+                      The task of this visualization is to uncover long-term
+                      trends in aviation safety across different engine types
+                      and to enable a more comprehensive understanding of how
+                      safety measures and operational practices have evolved.
+                    </p>
+                    <p>
+                      This visualization is especially valuable for identifying
+                      the overall effectiveness of safety initiatives and for
+                      pinpointing where further resources should be allocated.
+                      The gradual decline in single-engine fatalities is a
+                      promising trend, suggesting successful safety
+                      interventions, while the more stable patterns in
+                      twin-engine aircraft fatalities highlight areas where
+                      additional focus could lead to improved outcomes. For
+                      aviation authorities, this broader view provides
+                      actionable insights to inform future strategies in
+                      reducing fatality rates across all engine types.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-container text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>
+              <br />©
+              <a
+                href="https://www.linkedin.com/in/andrea-keiper/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Andrea Keiper </a
+              >,
+              <a
+                href="https://www.linkedin.com/in/miles-vollmer-192aa0223/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Miles Vollmer </a
+              >,
+              <a
+                href="https://www.linkedin.com/in/souren-prakash/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Souren Prakash </a
+              >,
+              <a
+                href="https://www.linkedin.com/in/teera74/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Teera Tesharojanasup
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        navActivePage();
+      });
+    </script>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
