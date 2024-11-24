@@ -16,7 +16,7 @@ For https://teechenxing.github.io/aviation/viz2.html, since the `assets/interact
 version https://git-lfs.github.com/spec/v1 oid sha256:bf4c94a2afef63b94c86b7c53031a4d91b6f988e0d1409dab53a306aa9bec62e size 53702136
 ```
 
-To see the website with this plot, please clone the github repo via <ins>HTTPS</ins> or <ins>SSH</ins> and unzip `aviation.zip` into a directory of your choice. Once finished, you can right click on index.html and open it via live server. We apologize for the inconvenience caused.
+To see the website with this plot, please clone the github repo via <ins>HTTPS</ins> or <ins>SSH</ins> and unzip `aviation.zip` into a directory of your choice. Once finished, you can right click on `index.html` and open it via live server. We apologize for the inconvenience caused.
 
 <div align="center">
     <img src="assets/images/burning_plane.gif" alt="burning">
