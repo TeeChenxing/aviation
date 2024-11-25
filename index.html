@@ -151,6 +151,21 @@
           aviation safety. By visualizing these factors, we aim to identify
           patterns in accident occurrences.
         </p>
+        <p>
+          To prepare the data for analysis, we performed several cleaning steps.
+          Columns with a large number of missing or empty values were removed
+          entirely. For other attributes, such as
+          <code>Broad Phase of Flight</code>, we replaced missing values with
+          "Unknown" to retain potentially useful rows rather than discarding
+          them. Additionally, date-time strings were converted into proper
+          date-time objects to facilitate temporal analysis. However, the
+          dataset lacks certain important attributes that could provide deeper
+          insights. For example, pilot-specific information such as age, sex,
+          and years of experience is absent, even though pilot mistakes often
+          play a significant role in aviation accidents. Including such features
+          could enhance the understanding of human contributions to accident
+          outcomes.
+        </p>
       </div>
       <div class="template-example">
         <h2 class="template-title-example">Visualizations</h2>
@@ -208,6 +223,46 @@
           duis pretium consequat. Metus maximus sagittis taciti viverra taciti v
           volutpat taciti malesuada ullamcorper. Fusce imperdiet est tempus,
           odio orci congue. Litora neque est commodo sed rutrum phasellus dictum
+        </p>
+      </div>
+      <div class="template-example">
+        <h2 class="template-title-example">References</h2>
+        <p>
+          [1]
+          <a
+            href="https://doi.org/10.1080/02723646.2016.1211854"
+            title=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >https://doi.org/10.1080/02723646.2016.1211854</a
+          >
+          <br />
+          [2]
+          <a
+            href="https://submissions.ijoqm.org/index.php/ijoqm/article/view/48"
+            title=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >https://submissions.ijoqm.org/index.php/ijoqm/article/view/48</a
+          >
+          <br />
+          [3]
+          <a
+            href="https://blogs.sas.com/content/iml/2015/03/30/visualizing-airline-crashes.html"
+            title=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >https://blogs.sas.com/content/iml/2015/03/30/visualizing-airline-crashes.html</a
+          >
+          <br />
+          [4]
+          <a
+            href="https://public.tableau.com/views/AirCrashVisualisation/AirCrashStory?:embed=y&:showVizHome=no&:display_count=y&:display_static_image=y&:bootstrapWhenNotified=true"
+            title=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >https://shorturl.at/POC5N</a
+          >
         </p>
       </div>
     </div>
