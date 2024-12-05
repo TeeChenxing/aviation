@@ -119,61 +119,66 @@
                       the specific incident.
                     </p>
                     <p>
-                      This interactive scatter plot visualizes total fatal
-                      aircraft injuries over time (starting from 1980) and
-                      allows filtering by the number of engines. Each point
-                      represents an incident, with the y-axis displaying the
-                      number of fatal injuries and the x-axis marking the date
-                      of occurrence. The color of each point encodes the extent
-                      of aircraft damage, with red indicating "Destroyed,"
-                      yellow for "Substantial," orange for "Minor," and gray for
-                      "Unknown." Unfiltered, the data demonstrates that the
-                      majority of incidents involve significant aircraft damage,
-                      particularly "Destroyed" outcomes, and cluster closer to
-                      lower fatality counts. High-fatality incidents are
-                      relatively rare but visible as outliers.
+                      This scatter plot visualizes total fatal aircraft injuries
+                      over time, starting from 1980, with filtering options by
+                      the severity of aircraft damage. The marks in this
+                      visualization are scatter points, each representing a
+                      single incident. The channels include:
                     </p>
-                    <p>When filtered by the number of engines:</p>
                     <ul>
                       <li>
-                        <b>1 Engine:</b> The most incidents occur here,
-                        highlighting that single-engine aircraft are more prone
-                        to fatal accidents, possibly due to their prevalence in
-                        general aviation. Most incidents cluster around 0–20
+                        <b>Position:</b> The x-axis represents the date of
+                        occurrence, and the y-axis shows the number of
                         fatalities.
                       </li>
                       <li>
-                        <b>2 Engine:</b> Two-engine aircraft show fewer total
-                        incidents than single-engine planes but include some of
-                        the higher-fatality incidents. This suggests a different
-                        operational risk profile, potentially tied to larger or
-                        more complex operations.
+                        <b>Color:</b> Indicates the level of aircraft damage,
+                        with red for "Destroyed," orange for "Substantial,"
+                        yellow for "Minor," and gray for "Unknown."
+                      </li>
+                    </ul>
+                    <p>
+                      Faceting by damage level provides insights into the nature
+                      and severity of incidents:
+                    </p>
+                    <ul>
+                      <li>
+                        <b>Destroyed:</b> The most common category, with
+                        incidents clustering around 0–20 fatalities, though
+                        high-fatality events appear as notable outliers. This
+                        reflects the catastrophic nature of incidents resulting
+                        in total aircraft destruction.
                       </li>
                       <li>
-                        <b>3 Engine and 4 Engines:</b> These aircraft show much
-                        sparser data points, with incidents being infrequent but
-                        often involving higher fatalities when they do occur.
-                        These findings align with the lower overall use of
-                        multi-engine planes compared to single- and twin-engine
-                        types.
+                        <b>Substantial:</b> Incidents show a wide spread of
+                        fatality counts, though generally lower than in the
+                        "Destroyed" category, indicating serious but often
+                        survivable events.
+                      </li>
+                      <li>
+                        <b>Minor:</b> Rarely observed, reflecting less severe
+                        outcomes with minimal fatalities.
+                      </li>
+                      <li>
+                        <b>Unknown:</b> Sparse data in this category, but
+                        occasional high-fatality events suggest gaps in
+                        reporting or ambiguous classifications.
                       </li>
                     </ul>
                     <br />
                     <p>
-                      The marks in this visualization are the scatter points,
-                      while the channels are color (representing the level of
-                      damage) and position (date and fatality count). The tasks
-                      for this visualization include identifying temporal
-                      trends, understanding the distribution of fatal injuries
-                      across aircraft types, and analyzing damage levels over
-                      time. However, this graph primarily highlights individual
-                      incidents and their details. For a broader analysis, it
-                      may be more useful to examine summed fatalities per month
-                      for different engine types, as seen in the next
-                      visualization, to capture overall trends and seasonality
-                      across time. This approach could provide more actionable
-                      insights for safety interventions and operational
-                      planning.
+                      Filtering options allow users to focus on specific
+                      fatality ranges, addressing the high volume of
+                      low-fatality incidents that can obscure trends. The zoom
+                      feature provides additional flexibility, enabling closer
+                      examination of specific time periods or clusters of
+                      incidents. This visualization supports tasks such as
+                      identifying temporal trends, examining the distribution of
+                      fatal injuries across damage levels, and exploring changes
+                      in incident severity over time. While it highlights
+                      individual incidents, aggregated views of fatalities by
+                      month or year may offer complementary insights into
+                      overall safety trends and inform targeted interventions.
                     </p>
                   </div>
                 </div>
