@@ -10,13 +10,13 @@
 
 ### Slight Difficulties...
 
-For https://teechenxing.github.io/aviation/viz2.html, since the `assets/interactive_bar_chart.html` file is <b>52.4 MB</b>, it is too large to be hosted on github pages freely and thus, when trying to render it via github pages, it only displays a pointer:
+For <a href="https://teechenxing.github.io/aviation/viz2.html" target="_blank" rel="noopener noreferrer">teechenxing.github.io/aviation/viz2.html</a>, since the `assets/interactive_bar_chart.html` file is <b>52.4 MB</b>, it is too large to be hosted on github pages freely and thus, when trying to render it via github pages, it only displays a pointer:
 
 ```
 version https://git-lfs.github.com/spec/v1 oid sha256:bf4c94a2afef63b94c86b7c53031a4d91b6f988e0d1409dab53a306aa9bec62e size 53702136
 ```
 
-To see the website with this plot, please navigate to [teera.dev](https://teera.dev/). We apologize for any inconvenience caused.
+To see the website with this plot, please navigate to <a href="https://teera.dev/" target="_blank" rel="noopener noreferrer">teera.dev</a>. We apologize for any inconvenience caused.
 
 <div align="center">
   <img 
