@@ -10,9 +10,9 @@ body {
   margin: 0;
 }
 .center {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .iframe-container {
   display: flex;
@@ -3667,6 +3667,8 @@ tbody.collapse.in {
 }
 .navbar-nav {
   margin: 0.25px -15px;
+  display: flex;
+  justify-content: center;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4840,6 +4842,7 @@ body.minimal {
   color: #fff;
 }
 .section-container-spacer {
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 @media (min-width: 1200px) {
